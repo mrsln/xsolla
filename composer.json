@@ -1,0 +1,21 @@
+{
+	"require": {
+		"slim/slim": "2.*",
+		"slim/extras": "*",
+		"mrsln/slim-json-api": "dev-master"
+	},
+	"repositories": [
+		{
+			"type": "vcs",
+			"url": "https://github.com/mrsln/slim-json-api"
+		}
+	],
+	 "autoload": {
+		"psr-4": {
+			"FsApi\\": ["src/"]
+		}
+	},
+	"require-dev": {
+		"phpunit/phpunit": "4.3.*"
+	}
+}

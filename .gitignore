@@ -1,0 +1,8 @@
+/vendor
+/tmp/*
+/log/*
+/log/render/*
+._.*
+/composer.lock
+/composer.phar
+
